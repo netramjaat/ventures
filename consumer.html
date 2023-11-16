@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalFarm Connect - Consumer Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Consumer Profile</h1>
+    </header>
+
+    <section class="profile">
+        <!-- Consumer profile content goes here -->
+        <div class="consumer-info">
+            <p>Name: Radha Sharma</p> <!-- An example of an Indian name -->
+            <p>Location: Urban Area</p>
+            <p>Email: radha@example.com</p>
+            <!-- Add more profile information as needed -->
+        </div>
+
+        <!-- Previous Transactions Details -->
+        <div class="transaction-details">
+            <h2>Previous Transactions</h2>
+            <ul>
+                <li>
+                    <p>Product: Rice</p>
+                    <p>Quantity: 5 kg</p>
+                    <p>Amount Paid: ₹1000</p>
+                </li>
+                <li>
+                    <p>Product: Wheat</p>
+                    <p>Quantity: 55 kg</p>
+                    <p>Amount Paid: ₹500</p>
+                </li>
+                <li>
+                    <p>Product: Dal </p>
+                    <p>Quantity: 10 kg</p>
+                    <p>Amount Paid: ₹1000</p>
+                </li>
+                <li>
+                    <p>Product: Millet</p>
+                    <p>Quantity: 15 kg</p>
+                    <p>Amount Paid: ₹500</p>
+                </li>
+                <li>
+                    <p>Product: Jowar</p>
+                    <p>Quantity: Assorted</p>
+                    <p>Amount Paid: ₹300</p>
+                </li>
+                <!-- Add more transactions as needed -->
+            </ul>
+        </div>
+
+       <!-- Cart Details -->
+       <div class="cart-details">
+        <h2>Shopping Cart</h2>
+        <ul>
+            <li>
+                <div class="cart-item">
+                    <p>Organic Wheat - 10 kg</p>
+                    <button onclick="buyItem('Organic Wheat', 10, 500)">Buy This Item</button>
+                </div>
+            </li>
+            <li>
+                <div class="cart-item">
+                    <p>Fresh Vegetables - Assorted</p>
+                    <button onclick="buyItem('Fresh Vegetables', 'Assorted', 300)">Buy This Item</button>
+                </div>
+            </li>
+            <li>
+                <div class="cart-item">
+                    <p>Organic Dal (Lentils) - 3 kg</p>
+                    <button onclick="buyItem('Organic Dal (Lentils)', 3, 150)">Buy This Item</button>
+                </div>
+            </li>
+            <li>
+                <div class="cart-item">
+                    <p>Organic Barley - 2 kg</p>
+                    <button onclick="buyItem('Organic Barley', 2, 100)">Buy This Item</button>
+                </div>
+            </li>
+            <li>
+                <div class="cart-item">
+                    <p>Organic Quinoa - 1 kg</p>
+                    <button onclick="buyItem('Organic Quinoa', 1, 200)">Buy This Item</button>
+                </div>
+            </li>
+            <li>
+                <div class="cart-item">
+                    <p>Organic Millet (Bajra) - 2 kg</p>
+                    <button onclick="buyItem('Organic Millet (Bajra)', 2, 120)">Buy This Item</button>
+                </div>
+            </li>
+        </ul>
+        <p>Total Items: 22</p>
+        <p>Total Amount: ₹2000</p>
+    </div>
+    </section>
+
+    
+</body>
+</html>

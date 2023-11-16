@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalFarm Connect - Available Goods</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Available Goods</h1>
+    </header>
+
+    <section class="goods-list">
+        <div class="goods-item">
+            <h2>Organic Wheat</h2>
+            <p>Owner: Farmer Name</p>
+            <p>Quantity: 50 kg</p>
+            <button onclick="addToCart('Organic Wheat', 'Farmer Name', 50)">Add to Cart</button>
+            <button onclick="addToCart('Organic Wheat', 'Farmer Name', 50)">Buy</button>
+
+        </div>
+
+        <div class="goods-item">
+            <h2>Fresh Vegetables</h2>
+            <p>Owner: Another Farmer</p>
+            <p>Quantity: Varies</p>
+            <button onclick="addToCart('Fresh Vegetables', 'Another Farmer', 'Varies')">Add to Cart</button>
+            <button onclick="addToCart('Organic Wheat', 'Farmer Name', 50)">Buy</button>
+
+        </div>
+
+        <!-- Add more items as needed -->
+        
+        <div class="goods-item">
+            <h2>Organic Rice</h2>
+            <p>Owner: Organic Farm Co.</p>
+            <p>Quantity: 30 kg</p>
+            <button onclick="addToCart('Organic Rice', 'Organic Farm Co.', 30)">Add to Cart</button>
+            <button onclick="addToCart('Organic Wheat', 'Farmer Name', 50)">Buy</button>
+
+        </div>
+
+        <div class="goods-item">
+            <h2>Organic Dal (Lentils)</h2>
+            <p>Owner: Dal Valley Farm</p>
+            <p>Quantity: 20 kg</p>
+            <button onclick="addToCart('Organic Dal (Lentils)', 'Dal Valley Farm', 20)">Add to Cart</button>
+            <button onclick="addToCart('Organic Wheat', 'Farmer Name', 50)">Buy </button>
+
+        </div>
+
+        <!-- Add more items as needed -->
+    </section>
+
+   
+
+    <script>
+        function addToCart(product, owner, quantity) {
+            alert(`You have added ${quantity} kg of ${product} from ${owner} to your cart.`);
+            // Add your custom functionality for adding items to the cart
+        }
+    </script>
+</body>
+</html>
